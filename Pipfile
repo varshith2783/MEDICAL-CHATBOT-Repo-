@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "<2.33,>=2.31"
+idna = ">=3.4"
+urllib3 = ">=1.26.15"
+langchain-huggingface = "*"
+sentence-transformers = "*"
+python-dotenv = "*"
+streamlit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
